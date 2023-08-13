@@ -20,6 +20,6 @@ func main() {
 			pinCode: 6900,
 		},
 	}
-	alex.updateName("Akhil")
+	(&alex).updateName("Akhil")
 	alex.print()
 }
